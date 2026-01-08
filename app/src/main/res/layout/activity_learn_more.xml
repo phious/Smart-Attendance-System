@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/browser_actions_bg_grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="      The Smart Campus Attendance and Safety System (SCASS) is an Android-based
+solution designed to automate classroom attendance using real-time face recognition
+and to enhance campus safety with quick alert and incident-reporting features.
+SCASS replaces manual roll calls and paper-based sheets with a fast, secure, and
+fraud-proof attendance system that identifies students directly through the camera.
+The system uses modern mobile technologies such as CameraX, ML Kit face detection,
+and on-device TensorFlow Lite models to ensure accurate recognition even on
+mid-range devices.
+
+      Attendance records are stored locally and synchronized with a cloud backend,
+making the system reliable both online and offline. SCASS also integrates safety tools,
+allowing students to send instant panic alerts or report incidents from within the app.
+These features provide a unified, mobile-driven solution that supports instructors,
+administrators, and students.
+
+      By reducing manual workload, eliminating proxy attendance, and ensuring timely
+safety reporting, SCASS aims to modernize campus operations and create a more
+secure and efficient academic environment."
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/detail"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+    </LinearLayout>
+</ScrollView>
